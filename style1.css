@@ -10,7 +10,7 @@ header{
     overflow: hidden;
     position: relative;
     object-fit: cover;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 
 .header-img{
@@ -24,16 +24,20 @@ header{
     width:100%;
 }
 
-.nav{
+.nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     color: white;
-    font-size: 1rem;
+    font-size: 1.1rem;
     margin: 0 40px;
 }
+.nav a{
+    color:white;
+    text-decoration: none;
 
-.nav-bar{
+}
+.nav-bar {
     list-style: none;
     font-weight: bolder;
     display: flex;
@@ -114,7 +118,7 @@ top: 180px;
     display: flex;
     justify-content: center;
     align-items: center;   
-    margin-bottom: 6rem;
+    margin-bottom: 6px;
 }
 
 .section1-item{
@@ -127,11 +131,16 @@ top: 180px;
     border: 1px solid rgb(204, 200, 200);   
 }
 
+
+
 .section1-item img{
     width: 100%;
     border-radius: 10px;
     z-index: -1;
+    
 }
+
+
 
 .item-detail{
     position: absolute;
@@ -143,18 +152,25 @@ top: 180px;
     height: 25%;
 }
 
-.item-detail p{
+
+.item-detail p{ 
     font-size: 18px;
     margin-left: 10px;
     color: rgb(54, 54, 54);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 500;
 }
+
+
+
 .item-detail p span{
     font-size: 14px;
     font-weight: lighter;
 }
 
+.item-detail a{
+    text-decoration: none;
+}
 
 /* Section2 */
 
@@ -237,7 +253,7 @@ margin-right: 10px;
 
 
 .section3-content{
-    margin-right: 30px;
+    margin-right: 20px;
 }
 .section3-content h1{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
